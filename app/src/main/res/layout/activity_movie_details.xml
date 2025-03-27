@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/detailsTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/detailsYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Year" />
+
+        <TextView
+            android:id="@+id/detailsRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rating" />
+
+        <TextView
+            android:id="@+id/detailsStudio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Studio" />
+
+        <TextView
+            android:id="@+id/detailsDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:paddingTop="8dp" />
+
+        <ImageView
+            android:id="@+id/detailsPoster"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside" />
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_marginTop="12dp" />
+    </LinearLayout>
+</ScrollView>
