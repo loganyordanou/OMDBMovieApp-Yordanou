@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "21668354075",
+    "project_id": "omdbmovieapp-197b7",
+    "storage_bucket": "omdbmovieapp-197b7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21668354075:android:a842eb4450bb2cb63fc0be",
+        "android_client_info": {
+          "package_name": "com.example.omdbmovieapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4_gNzy1eHbshVdaia3Hw7FIn8_nXDydw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
